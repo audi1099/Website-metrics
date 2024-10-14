@@ -107,7 +107,7 @@ a:hover {
 
 
 .project_home {
-    width: auto;
+    width: 1150px;
     height: 548px;
     margin-bottom: 90px;
 }
@@ -142,8 +142,8 @@ a:hover {
 
 
 .all_projects_btn {
-    position: relative;
-    width: 100%;
+    position: absolute;
+    width: 80%;
     height: 153px;
     font-size: 30px;
     font-weight: 200;
