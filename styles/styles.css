@@ -2,6 +2,8 @@ body {
     font-family: "Manrope", sans-serif;
     width: 100%;
     background: #F5F5F5;
+    letter-spacing: -3%;
+
 }
 
 
@@ -20,7 +22,7 @@ h1 {
     font-weight: 400;
     line-height: 60px;
     text-align: left;
-    letter-spacing: -3%;
+    
 }
 
 
@@ -36,11 +38,10 @@ h1 {
     position: absolute;
     width: 430px;
     left: 40px;
-    bottom: 41px;
+    bottom: 40px;
     font-weight: 400;
     font-size: 19px;
     line-height: 27px;
-    letter-spacing: -3%;
     color: #FFFFFF;
 } 
 
@@ -55,7 +56,6 @@ h1 {
     font-size: 18px;
     font-weight: 400;
     line-height: 25px;
-    letter-spacing: -3%;
     text-align: left;
 }
     
@@ -65,7 +65,6 @@ h1 {
     width: auto;
     font-size: 46px;
     line-height: 61px;
-    letter-spacing: -3%;
     text-align: left;
 } 
 
@@ -101,7 +100,6 @@ a:hover {
     font-size: 18px;
     font-weight: 400;
     line-height: 25px;
-    letter-spacing: -3%;
     text-align: left;
 }
 
@@ -124,16 +122,15 @@ a:hover {
     font-size: 30px;
     font-weight: 400;
     line-height: 41px;
-    letter-spacing: -3%;
     color: rgb(18, 18, 18);
 }
 
 
 .project_details_btn_home {
+    padding-left: 2px;
     font-size: 20px;
     font-weight: 400;
     line-height: 27px;
-    letter-spacing: -3%;
     border: none;
     cursor: pointer;
     background-color: white; 
@@ -148,7 +145,6 @@ a:hover {
     font-size: 30px;
     font-weight: 400;
     line-height: 41px;
-    letter-spacing: -3%;
     border-radius: 5px;
     cursor: pointer;
     border: 1px solid rgb(173, 24, 24);
@@ -161,10 +157,54 @@ a:hover {
     color: white;
     background-color: red;
     
+} 
+
+
+.home_services {
+    margin-top: 150px;
+    margin-left: -125px;
+    margin-right: -125px;
+    height: 1844px;
+    background-color: rgb(18, 18, 18);
 }
 
 
+.services {
+    margin-bottom: 35px;
+    padding-left: 127px;
+    padding-top: 151px;
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 25px;
+    color: rgb(255, 255, 255);
+}
 
+
+.services_for_you {
+    margin: 0 auto;
+    margin-bottom: 60px;
+    width: 1150px;
+    height: 326px;
+}
+
+
+.services_image {
+    margin-bottom: 15px;
+}
+
+
+.services_name {
+    padding-left: 3px;
+    font-size: 27px;
+    font-weight: 400;
+    line-height: 41px;
+    color: rgb(255, 255, 255)
+}
+
+.services_for_you:nth-last-child(1) {
+    margin-bottom: 0px;
+}
+ 
 
 
 
