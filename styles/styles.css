@@ -3,15 +3,6 @@ body {
     width: 100%;
     background: #F5F5F5;
     letter-spacing: -3%;
-
-}
-
-
-.container {
-    margin: 0 auto;
-    width: 1400px;
-    background: #FFFFFF;
-    padding: 125px;
 }
 
 
@@ -21,8 +12,65 @@ h1 {
     font-size: 58px;
     font-weight: 400;
     line-height: 60px;
+    text-align: left;   
+}
+
+
+h2 {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 60px;
     text-align: left;
-    
+}
+
+
+h3 {
+    font-size: 30px;
+    line-height: 41px;
+}
+
+
+h1,h2 {
+    color: #121212;
+}
+
+
+h3 {
+    color: white;
+}
+
+
+.section {
+    padding: 150px 125px 0 125px;
+}
+
+
+.section-long {
+    padding-bottom: 150px;
+}
+
+
+.section-black {
+    margin: 0 auto;
+    margin-left: -125px;
+    margin-right: -125px;
+    height: 1844px;
+    background-color: rgb(18, 18, 18);
+}
+
+
+.section-black h2 {
+    padding: 125px ;
+    padding-bottom: 35px;
+    color: #fff;
+}
+
+
+.container {
+    margin: 0 auto;
+    width: 1400px;
+    background: #FFFFFF;
+    padding: 125px;
 }
 
 
@@ -36,9 +84,9 @@ h1 {
 
 .image_text {
     position: absolute;
-    width: 430px;
     left: 40px;
     bottom: 40px;
+    width: 430px;
     font-weight: 400;
     font-size: 19px;
     line-height: 27px;
@@ -46,12 +94,8 @@ h1 {
 } 
 
 
-.about_us_page {
+h2.title_about_us {
     margin-top: 150px;
-}
-
-
-.title_about_us {
     margin-bottom: 31px;
     font-size: 18px;
     font-weight: 400;
@@ -69,7 +113,7 @@ h1 {
 } 
 
 
-a {
+a.btn {
     margin-top: 30px;
     display: inline-block;
     padding: 20px 40px;
@@ -88,15 +132,8 @@ a:hover {
 }
 
 
-.projects {
-    width: 100%;
-    height: 2122px;
+h2.title_projects {
     margin-top: 150px;
-}
-
-
-.title_projects {
-    margin-bottom: 31px;
     font-size: 18px;
     font-weight: 400;
     line-height: 25px;
@@ -104,19 +141,15 @@ a:hover {
 }
 
 
-.project_home {
+.project {
+    margin-top: 31px;
     width: 1150px;
     height: 548px;
     margin-bottom: 90px;
 }
 
 
-.project_image_home {
-    position: relative;
-}
-
-
-.project_name_home {
+h3.project__title {
     margin-top: 15px;
     margin-bottom: 15px;
     font-size: 30px;
@@ -126,61 +159,40 @@ a:hover {
 }
 
 
-.project_details_btn_home {
+a.project__link {
     padding-left: 2px;
     font-size: 20px;
-    font-weight: 400;
     line-height: 27px;
-    border: none;
     cursor: pointer;
     background-color: white; 
     color: rgb(173, 24, 24);
+    text-decoration: none;
 }
 
 
 .all_projects_btn {
-    position: relative;
+    display: block;
     width: 100%;
     height: 153px;
-    font-size: 30px;
-    font-weight: 400;
-    line-height: 41px;
-    border-radius: 5px;
-    cursor: pointer;
     border: 1px solid rgb(173, 24, 24);
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
     background-color: white;
     color: rgb(173, 24, 24);
+    font-size: 30px;
 }
 
 
 .all_projects_btn:hover {
-    color: white;
     background-color: red;
+    color: white;
     
 } 
 
 
-.home_services {
-    margin-top: 150px;
-    margin-left: -125px;
-    margin-right: -125px;
-    height: 1844px;
-    background-color: rgb(18, 18, 18);
-}
-
-
 .services {
-    margin-bottom: 35px;
-    padding-left: 127px;
-    padding-top: 151px;
-    font-size: 18px;
-    font-weight: 200;
-    line-height: 25px;
-    color: rgb(255, 255, 255);
-}
-
-
-.services_for_you {
     margin: 0 auto;
     margin-bottom: 60px;
     width: 1150px;
@@ -193,16 +205,8 @@ a:hover {
 }
 
 
-.services_name {
-    padding-left: 3px;
-    font-size: 27px;
-    font-weight: 400;
-    line-height: 41px;
-    color: rgb(255, 255, 255)
-}
-
 .services_for_you:nth-last-child(1) {
-    margin-bottom: 0px;
+    margin-bottom: 0;
 }
  
 
