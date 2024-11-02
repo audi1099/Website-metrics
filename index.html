@@ -2,9 +2,12 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
+    
     <title>Сайт</title>
+    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
     <link 
       href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" 
       rel="stylesheet">
@@ -12,107 +15,106 @@
     <link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
-  <div class="container">
-    <section>
-      <h1>Современные и стильные интерьеры для комфортной жизни</h1>
-      <div class="room">
-        <p class="image_text">
-          Мы - команда квалифицированных дизайнеров и архитекторов, 
-          занимающихся разработкой и реализацией дизайн-проектов
-        </p>
-      </div>
-    </section>
-    <section>
-      <h2 class="title_about_us">O HAC</h2>
-      <p class="about">
-        Студия основана в 2011 году. Полностью отдаемся проектированию и реализации интерьеров. 
-        K нам обращаются за уютом, индивидуальными решениями и практичностью. Находим 
-        конструктивные решения для каждого интерьера, вплоть до каждой детали — нацелены на результат.
-      </p>
-      <a class="btn" href="">Посмотреть услуги</a>
-    </section>
-    <section class="section-long">
-      <h2 class="title_projects">ПРОЕКТЫ</h2>
-      <ul class="projects">      
-        <li class="project">
-          <img 
-            class="project__image" 
-            src="./resources/ЖК ПРАВОБЕРЕЖНЫЙ.png" 
-            alt="ЖК ПРАВОБЕРЕЖНЫЙ"
-          />
-          <h3 class="project__title">ЖК ПРАВОБЕРЕЖНЫЙ — 112 м² — 2023</h3>
-          <a class="project__link" href="xxx">Подробнее →</a>
-        </li> 
+  <main>
+      <section>
+        <div class="container">
+          <h1>Современные и стильные интерьеры для комфортной жизни</h1>
+          <div class="room">
+            <p class="image_text">
+              Мы - команда квалифицированных дизайнеров и архитекторов, 
+              занимающихся разработкой и реализацией дизайн-проектов
+            </p>
+          </div>
+        </div>
+      </section>
+      
+      <section>
+        <div class="container">
+          <h2 class="title_about_us">O HAC</h2>
+          <p class="about">
+            Студия основана в 2011 году. Полностью отдаемся проектированию и реализации интерьеров. 
+            K нам обращаются за уютом, индивидуальными решениями и практичностью. Находим 
+            конструктивные решения для каждого интерьера, вплоть до каждой детали — нацелены на результат.
+          </p>
+          <a class="btn" href="#">Посмотреть услуги</a>
+        </div>
+      </section>
+      
+      <section class="section-long">
+        <div class="container">
+          <h2 class="title_projects">ПРОЕКТЫ</h2>
+          <ul class="projects">      
+            <li class="project">
+              <img 
+                class="project__image" 
+                src="./resources/ЖК ПРАВОБЕРЕЖНЫЙ.png" 
+                alt="Комната с красным диваном и панорамным окном"
+              />
+              <h3 class="project__title">ЖК ПРАВОБЕРЕЖНЫЙ — 112 м² — 2023</h3>
+              <a class="project__link" href="#">Подробнее →</a>
+            </li> 
+      
+            <li class="project">
+              <img 
+                class="project__image" 
+                src="./resources/ЖК НОРВЕЖСКИЙ ПАРК.png" 
+                alt="Комната со столиком,телевизором и диваном"
+              />
+              <h3 class="project__title">ЖК НОРВЕЖСКИЙ ПАРК — 75 М² — 2023</h3>
+              <a class="project__link" href="#">Подробнее →</a>
+            </li>
+      
+            <li class="project">
+              <img 
+                class="project__image" 
+                src="./resources/ЖК СОСНОВСКИЕ ОЗЕРА .png" 
+                alt="Комната со столом и стульями и лестницей на второй этаж"
+              />
+              <h3 class="project__title">ЖК СОСНОВСКИЕ ОЗЕРА — 94 М² — 2022</h3>
+              <a class="project__link" href="#">Подробнее →</a>
+            </li>
+            <button class="all_projects_btn" href="#">Смотреть все проекты</button>  
+          </ul>
+        </div>  
+      </section>
   
-        <li class="project">
-          <img 
-            class="project__image" 
-            src="./resources/ЖК НОРВЕЖСКИЙ ПАРК.png" 
-            alt="ЖК НОРВЕЖСКИЙ ПАРК"
-          />
-          <h3 class="project__title">ЖК НОРВЕЖСКИЙ ПАРК — 75 М² — 2023</h3>
-          <a class="project__link" href="xxx">Подробнее →</a>
-        </li>
-  
-        <li class="project">
-          <img 
-            class="project__image" 
-            src="./resources/ЖК СОСНОВСКИЕ ОЗЕРА .png" 
-            alt="ЖК СОСНОВСКИЕ ОЗЕРА"
-          />
-          <h3 class="project__title">ЖК СОСНОВСКИЕ ОЗЕРА — 94 М² — 2022</h3>
-          <a class="project__link" href="xxx">Подробнее →</a>
-        </li>
-        <button class="all_projects_btn" href="xxx">Смотреть все проекты</button>  
-      </ul>   
-    </section>
+      <section class="section-black section-long">
+        <div class="container">
+          <h2 class="title_services">УСЛУГИ</h2>
+          <ul class="services">
+            <li class="service">
+              <img 
+                class="services_image" 
+                src="./resources/Планировочное решение.png" 
+                alt="Лист с чертежом"
+              />
+              <h3>Планировочное решение — от 2500₽/м²</h3>
 
-    <section class="section-black section-long">
-      <h2>УСЛУГИ</h2>
-      <ul class="services">
-        <li class="service">
-          <img 
-            class="services_image" 
-            src="./resources/Планировочное решение.png" 
-            alt="Планировочное решение"
-          />
-          <h3>Планировочное решение — от 2500₽/м²</h3>
-        </li>
-      </ul>
-       
-      <ul class="services">
-        <li class="service">
-          <img
-            class="services_image" 
-            src="./resources/Дизайн-проект.png" 
-            alt="Дизайн-проект"
-          />
-          <h3>Дизайн-проект — от 3000₽/м²</h3>
-        </li>
-      </ul>
-  
-      <ul class="services">
-        <li class="service">
-          <img 
-            class="services_image" 
-            src="./resources/Авторский надзор.png" 
-            alt="Авторский надзор"
-          />
-          <h3>Авторский надзор — от 30 000₽ в месяц</h3>
-        </li>
-      </ul>
-  
-      <ul class="services">
-        <li class="service">
-          <img 
-            class="services_image" 
-            src="./resources/Комплектация.png" 
-            alt="Комплектация"
-          />
-          <h3>Комплектация — 5% от стоимости спецификации</h3>
-        </li>
-      </ul>
-    </section>  
-  </div>   
+              <img
+                class="services_image" 
+                src="./resources/Дизайн-проект.png" 
+                alt="Плашки с цветовой палитрой"
+              />
+              <h3>Дизайн-проект — от 3000₽/м²</h3>
+
+              <img 
+                class="services_image" 
+                src="./resources/Авторский надзор.png" 
+                alt="Человек проверяет чертёж"
+              />
+              <h3>Авторский надзор — от 30 000₽ в месяц</h3>
+
+              <img 
+                class="services_image" 
+                src="./resources/Комплектация.png" 
+                alt="Склад с комплектующими"
+              />
+              <h3>Комплектация — 5% от стоимости спецификации</h3>
+            </li>
+          </ul>  
+        </div> 
+      </section>  
+    </div>
+  </main>
 </body>
 </html>
