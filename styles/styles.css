@@ -4,7 +4,6 @@ body {
     letter-spacing: -0.03em;
 }
 
-
 h1 {
     max-width: 956px;
     font-size: 58px;
@@ -13,14 +12,12 @@ h1 {
     color: #121212;  
 }
 
-
 h2 {
     font-size: 18px;
     font-weight: 400;
     line-height: 60px;
     color: #121212;
 }
-
 
 h3 {
     margin-bottom: 60px;
@@ -29,49 +26,24 @@ h3 {
     color: white;
 }
 
-
 .section {
     padding: 150px 125px 0 125px;
 }
 
-
-.section-long {
-    padding-bottom: 150px;
-}
-
-
-.section-black {
-    margin: 0 auto;
-    width: calc(100% + 250px);
-    margin-left: -125px;
-    height: 1844px;
-    background-color: rgb(18, 18, 18);
-}
-
-
-.section-black h2 {
-    padding-top: 150px;
-    padding-bottom: 35px;
-    color: #fff;
-}
-
-
 .container {
-    max-width: 1150px;
+    max-width: 1180px;
     padding: 0 15px;
     margin: 0 auto;
 }
 
-
-.room {
+.hero__title {
     position: relative;
     margin-top: 30px;
     height: 514px;
     background-image: url(../resources/Rectangle.png);
 }
-  
 
-.image_text {
+.hero__block {
     position: absolute;
     left: 40px;
     bottom: 40px;
@@ -79,9 +51,11 @@ h3 {
     font-weight: 400;
     font-size: 19px;
     line-height: 27px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     color: #FFFFFF;
 } 
-
 
 h2.title_about_us {
     margin-top: 150px;
@@ -91,21 +65,17 @@ h2.title_about_us {
     line-height: 25px;
     text-align: left;
 }
-    
 
-.about {
-    margin-top: 30px;
-    width: auto;
-    font-size: 46px;
-    line-height: 61px;
-    text-align: left;
-} 
+.about__title {
+    font-size: 47px;
+    line-height: normal;
+}
 
-
-a.btn {
-    margin-top: 30px;
+a.about__btn {
     display: inline-block;
+    font-size: 20px;
     padding: 20px 40px;
+    margin-top: 30px;
     border-radius: 5px;
     cursor: pointer;
     background-color: rgb(173, 24, 24);
@@ -113,13 +83,11 @@ a.btn {
     text-decoration: none;
 }
 
-
 a:hover {
     color: black;
     background-color: red;
     text-decoration: none;
 }
-
 
 h2.title_projects {
     width: 100%;
@@ -131,23 +99,16 @@ h2.title_projects {
     text-align: left;
 }
 
-
-
-
-
-.project {
+.projects__item {
     max-width: 100%;
-    margin-top: 31px;
     margin: 0 auto;
     height: 548px;
     margin-bottom: 90px;
 }
 
-
 .project__image {
     width: 100%;
 }
-
 
 h3.project__title {
     margin-top: 15px;
@@ -157,7 +118,6 @@ h3.project__title {
     line-height: 41px;
     color: rgb(18, 18, 18);
 }
-
 
 a.project__link {
     padding-left: 2px;
@@ -169,8 +129,7 @@ a.project__link {
     text-decoration: none;
 }
 
-
-.all_projects_btn {
+.projects_btn {
     display: block;
     margin: 0 auto;
     width: 100%;
@@ -185,31 +144,39 @@ a.project__link {
     font-size: 30px;
 }
 
-
-.all_projects_btn:hover {
+.projects_btn:hover {
     background-color: red;
     color: white;
-    
 } 
 
-
 .services {
-    width: 1150px;
+    width: 100%;
+    margin-top: 150px;
     margin-bottom: 60px;
-    height: 326px;
+    padding: 125px 0 125px;
+    color: #FFF;
+    background-color: #121212;
 }
-
 
 .service {
     width: 100%;
 }
 
-
-.services_image {
-    width: 100%;
-    margin-bottom: 15px;
+.services-item__list {
+    margin-top: 150px;
 }
 
+h2.title_services {
+    font-size: 18px;
+    color: #FFF;
+}
+
+.services-item__image {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
 
 .services_for_you:last-child {
     margin-bottom: 0;
