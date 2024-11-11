@@ -31,7 +31,7 @@ h3 {
 
 
 .section {
-    padding: 150px 125px 0 125px;
+    padding: 150px  0;
 }
 
 
@@ -46,7 +46,7 @@ h3 {
     position: relative;
     margin-top: 30px;
     height: 514px;
-    background-image: url(../resources/Rectangle.png);
+    background-image: url(../resources/Section-1-img1.png);
 }
   
 
@@ -71,7 +71,6 @@ h2.title_about_us {
     font-size: 18px;
     font-weight: 400;
     line-height: 25px;
-    text-align: left;
 }
     
 
@@ -108,14 +107,12 @@ h2.title_projects {
     font-size: 18px;
     font-weight: 400;
     line-height: 25px;
-    text-align: left;
 }
 
 
 .projects__item {
     max-width: 100%;
     margin-top: 31px;
-    margin: 0 auto;
     height: 548px;
     margin-bottom: 90px;
 }
@@ -149,12 +146,12 @@ a.project__link {
     background-color: white; 
     color: rgb(173, 24, 24);
     text-decoration: none;
+    
 }
 
 
 .projects_btn {
     display: block;
-    margin: 0 auto;
     width: 100%;
     height: 153px;
     border: 1px solid rgb(173, 24, 24);
@@ -218,7 +215,12 @@ h2.title_services {
 }
  
 
-
+@media(any-hover:hover) {
+    element:hover {
+        background-color: red;
+        color: white;
+    }
+}
 
 
 
