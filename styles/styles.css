@@ -111,20 +111,21 @@ h2.title_projects {
 
 
 .projects__item {
-    max-width: 100%;
-    margin-top: 31px;
-    height: 548px;
+    margin-top: 30px;
     margin-bottom: 90px;
 }
 
 
 .projects-item__img-wrapper {
-    height: auto;
+    height: 450px;
 }
 
 
 .project__image {
+    display: block;
     width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 
@@ -201,7 +202,8 @@ h2.title_services {
 .services-item__image {
     display: block;
     width: 100%;
-    height: 100%;object-fit: cover;
+    height: 100%;
+    object-fit: cover;
 }
 
 
