@@ -6,7 +6,6 @@ body {
 
 
 h1 {
-    margin-top: 128px;
     max-width: 956px;
     font-size: 58px;
     font-weight: 400;
@@ -31,8 +30,18 @@ h3 {
 }
 
 
-.section {
-    padding: 150px  0;
+.hero{
+    margin-top: 128px;
+}
+
+
+.about {
+    margin-top: 150px;
+}
+
+
+.projects {
+    margin-top: 150px;
 }
 
 
@@ -67,7 +76,6 @@ h3 {
 
 
 h2.title_about_us {
-    margin-top: 150px;
     margin-bottom: 31px;
     font-size: 18px;
     font-weight: 400;
@@ -103,7 +111,6 @@ a:hover {
 
 h2.title_projects {
     width: 100%;
-    margin-top: 150px;
     margin-bottom: 30px;
     font-size: 18px;
     font-weight: 400;
