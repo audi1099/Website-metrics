@@ -281,7 +281,7 @@ h2.title_services {
 
 .apartment {
     height: 717px;
-    background-image: url(/resources/Apartment.png);
+    background-image: url(../resources/Apartment.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50%;
