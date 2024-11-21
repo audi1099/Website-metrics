@@ -234,6 +234,7 @@ h2.title_services {
 
 .nav-section {
     margin-top: 33px;
+    min-width: 100%;
 }
 
 
