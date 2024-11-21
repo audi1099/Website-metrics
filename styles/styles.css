@@ -31,7 +31,7 @@ h3 {
 
 
 .hero{
-    margin-top: 128px;
+    margin-top: 74px;
 }
 
 
@@ -231,12 +231,50 @@ h2.title_services {
 }
 
 
+.nav-section {
+    margin-top: 33px;
+}
 
 
+.nav-container {
+    max-width: 1180px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
 
-    
-    
+
+.logo__link {
+    display: inline-block;
+    width: 127px;
+    height: 22px;
+    margin-right: 438px;
+}
 
 
-   
+.logo__link:hover {
+    background-color: white;
+}
+
+
+.nav {
+    display: inline-block;
+}
+
+
+.nav__link {
+    display: inline-block;
+    font-size: 18px;
+    margin-left: 60px;
+    color: #121212;
+    text-decoration: none;
+}
+
+
+.nav__link:hover {
+    text-decoration: underline;
+    background-color: #FFF;
+}
+
+
+ 
         
