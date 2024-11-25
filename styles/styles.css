@@ -108,7 +108,7 @@ a.about__btn {
 }
 
 
-a:hover {
+a.about__btn:hover {
     color: black;
     background-color: red;
     text-decoration: none;
@@ -242,6 +242,7 @@ h2.title_services {
     max-width: 1180px;
     padding: 0 15px;
     margin: 0 auto;
+    position: relative; /* Добавлено для управления вложенными элементами */
 }
 
 
@@ -249,7 +250,7 @@ h2.title_services {
     display: inline-block;
     width: 127px;
     height: 22px;
-    margin-right: 438px;
+    margin-right: 20px;
 }
 
 
@@ -260,13 +261,28 @@ h2.title_services {
 
 .nav {
     display: inline-block;
+    float: right; /* Переносим навигацию вправо */
+}
+
+
+.nav__list {
+    margin: 0;
+    padding: 0;
+    list-style: none; /* Убираем стандартные маркеры списка */
+    white-space: nowrap; /* Запрещаем перенос элементов списка */
+    text-align: right; /* Устанавливаем выравнивание элементов списка вправо */
+}
+
+
+.nav__item {
+    display: inline-block; /* Элементы списка в одну строку */
 }
 
 
 .nav__link {
     display: inline-block;
     font-size: 18px;
-    margin-left: 60px;
+    padding: 0 10px; /* Добавили паддинг вместо margin */
     text-align: center;
     color: #121212;
     text-decoration: none;
@@ -294,9 +310,67 @@ h2.title_services {
     width: 443px;
 }
 
- .apartment__text {
+
+.apartment__text {
     font-size: 30px;
     font-weight: 400;
     line-height: 35px;
     color: #FFFFFF;
-}       
+}
+
+
+.contacts {
+    height: 553px;
+}
+
+
+.contacts__title {
+    margin-top: 186px;
+
+
+}
+
+
+h3.contacts__text {
+    margin-bottom: 32px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #121212;
+}
+
+.contacts__text:before {
+    content: '';
+    display: block;
+    position: relative;
+    top: -10px;
+    left: 0;
+    width: 24px;
+    height: 24px;
+    background-image: url(../resources/icon_image.png);
+    background-size: cover;
+}
+
+
+.contacts__list {
+    margin: 0;
+    padding: 0;
+    list-style: none; /* Убираем стандартные маркеры списка */
+    margin-top: 32px; /* Отступ сверху, чтобы элементы не были прямо под заголовком */
+}
+
+.contacts__item {
+    margin-bottom: 30px; /* Отступ между контактами */
+}
+
+.contacts__link {
+    font-size: 60px; /* Размер текста */
+    color: #121212;
+    text-decoration: none; /* Убираем подчеркивание */
+    display: inline-block; /* Чтобы ссылка занимала пространство на строке */
+}
+
+.contacts__link:hover {
+    opacity: 0.5; /* Полупрозрачность при наведении */
+    text-decoration: underline;
+    text-underline-offset: 10px; /* Отступ подчеркивания от текста */
+}
