@@ -288,6 +288,7 @@ h2.title_services {
 
 
 .nav__link:hover {
+    opacity: 0.5;
     text-decoration: underline;
     text-underline-offset: 5px;
     background-color: #FFF;
@@ -403,6 +404,7 @@ h3.contacts__text {
 
 
 .nav__link-footer:hover {
+    opacity: 0.5;
     text-decoration: underline;
     text-underline-offset: 5px;
 }
