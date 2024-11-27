@@ -182,7 +182,6 @@ a.projects-item__link {
 .projects_btn:hover {
     background-color: red;
     color: white;
-    
 } 
 
 
@@ -191,7 +190,6 @@ a.projects-item__link {
     padding: 125px 0 125px;
     color: #FFF;
     background-color: #121212;
-
 }
 
 
@@ -242,7 +240,7 @@ h2.title_services {
     max-width: 1180px;
     padding: 0 15px;
     margin: 0 auto;
-    position: relative; /* Добавлено для управления вложенными элементами */
+    position: relative;
 }
 
 
@@ -261,28 +259,28 @@ h2.title_services {
 
 .nav {
     display: inline-block;
-    float: right; /* Переносим навигацию вправо */
+    float: right;
 }
 
 
 .nav__list {
     margin: 0;
     padding: 0;
-    list-style: none; /* Убираем стандартные маркеры списка */
-    white-space: nowrap; /* Запрещаем перенос элементов списка */
-    text-align: right; /* Устанавливаем выравнивание элементов списка вправо */
+    list-style: none;
+    white-space: nowrap;
+    text-align: right;
 }
 
 
 .nav__item {
-    display: inline-block; /* Элементы списка в одну строку */
+    display: inline-block;
 }
 
 
 .nav__link {
     display: inline-block;
     font-size: 18px;
-    padding: 0 10px; /* Добавили паддинг вместо margin */
+    padding: 0 10px;
     text-align: center;
     color: #121212;
     text-decoration: none;
@@ -291,6 +289,7 @@ h2.title_services {
 
 .nav__link:hover {
     text-decoration: underline;
+    text-underline-offset: 5px;
     background-color: #FFF;
 }
 
@@ -326,8 +325,6 @@ h2.title_services {
 
 .contacts__title {
     margin-top: 186px;
-
-
 }
 
 
@@ -354,23 +351,72 @@ h3.contacts__text {
 .contacts__list {
     margin: 0;
     padding: 0;
-    list-style: none; /* Убираем стандартные маркеры списка */
-    margin-top: 32px; /* Отступ сверху, чтобы элементы не были прямо под заголовком */
+    list-style: none;
+    margin-top: 32px;
 }
 
 .contacts__item {
-    margin-bottom: 30px; /* Отступ между контактами */
+    margin-bottom: 30px;
 }
 
 .contacts__link {
-    font-size: 60px; /* Размер текста */
+    display: inline-block;
+    font-size: 60px;
     color: #121212;
-    text-decoration: none; /* Убираем подчеркивание */
-    display: inline-block; /* Чтобы ссылка занимала пространство на строке */
+    text-decoration: none;
 }
 
 .contacts__link:hover {
-    opacity: 0.5; /* Полупрозрачность при наведении */
+    opacity: 0.5;
     text-decoration: underline;
-    text-underline-offset: 10px; /* Отступ подчеркивания от текста */
+    text-underline-offset: 10px;
+}
+
+
+.nav-block {
+    height: 229px;
+    background-color: black;
+}
+
+
+.nav__item-footer {
+    display: inline-block;
+    
+}
+
+
+.nav__list-footer {
+    margin: 0 auto;
+    width: 460px;
+}
+
+
+.nav__link-footer {
+    display: inline-block;
+    margin-top: 60px;
+    font-size: 18px;
+    padding: 0 10px;
+    text-align: center;
+    color: #FFF;
+    text-decoration: none;
+}
+
+
+.nav__link-footer:hover {
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
+
+
+.company {
+    margin: 0 auto;;
+    width: 389px;
+}
+
+
+.company-name{
+    margin-top: 87px;
+    font-size: 20px;
+    text-align: center;
+    color: #FFF;
 }
