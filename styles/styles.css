@@ -367,6 +367,7 @@ h3.contacts__text {
     font-size: 60px;
     color: #121212;
     text-decoration: none;
+    letter-spacing: -1.8px;
 }
 
 .contacts__link:hover {
