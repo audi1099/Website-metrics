@@ -61,7 +61,7 @@ h3 {
 .hero__title {
     position: relative;
     margin-top: 30px;
-    height: 514px;
+    height: 500px;
     background-image: url(../resources/Section-1-img1.png);
 }
   
@@ -78,6 +78,7 @@ h3 {
     background-size: cover;
     background-position: center;
     color: #FFFFFF;
+    letter-spacing: -0.2px;
 } 
 
 
@@ -231,7 +232,7 @@ h2.title_services {
 
 
 .nav-section {
-    margin-top: 35px;
+    margin-top: 32px;
     min-width: 100%;
 }
 
@@ -242,6 +243,14 @@ h2.title_services {
     margin: 0 auto;
     position: relative;
 }
+
+
+.logo {
+    display: block;
+    width: 127px;
+    height: 22px;
+}
+
 
 
 .logo__link {
@@ -259,14 +268,13 @@ h2.title_services {
 
 .nav {
     display: inline-block;
+    vertical-align: top;
     float: right;
-    
 }
 
 
 .nav__list {
-    margin: 0;
-    padding: 0;
+    display: inline-block;
     list-style: none;
     white-space: nowrap;
     text-align: right;
@@ -275,17 +283,18 @@ h2.title_services {
 
 .nav__item {
     display: inline-block;
+    text-align: center;
 }
 
 
 .nav__link {
     display: inline-block;
     margin-left: 60px;
+    line-height: 25px;
     font-size: 18px;
-    text-align: center;
     color: #121212;
     text-decoration: none;
-    letter-spacing: -0.70px;
+    letter-spacing: -0.71px;
 }
 
 
@@ -385,13 +394,13 @@ h3.contacts__text {
 
 .nav__item-footer {
     display: inline-block;
-    
+    margin: 0 auto;
 }
 
 
 .nav__list-footer {
     margin: 0 auto;
-    width: 460px;
+    width: 450px;
 }
 
 
