@@ -266,6 +266,7 @@ h2.title_services {
 
 .nav {
     display: inline-block;
+    width: 468px;
     vertical-align: top;
     float: right;
 }
@@ -282,12 +283,11 @@ h2.title_services {
 .nav__item {
     display: inline-block;
     text-align: center;
+    margin-left: 60px;
 }
-
 
 .nav__link {
     display: inline-block;
-    margin-left: 60px;
     line-height: 25px;
     font-size: 18px;
     color: #121212;
