@@ -148,7 +148,7 @@ h3 {
 
 @media (max-width: 767px) {
     .hero__block {
-        width: 100%;
+        width: 312px;
         left: 15px;
         bottom: 15px;
         font-size: 16px;
