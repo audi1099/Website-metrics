@@ -17,6 +17,20 @@ h1 {
     color: #121212;
 }
 
+@media (max-width: 1199px) {
+    h1 {
+        font-size: 50px;
+    }
+
+}
+
+@media (max-width: 767px) {
+    h1 {
+        font-size: 30px;
+        line-height: 31px;
+    }
+}
+
 
 h2 {
     font-size: 18px;
@@ -79,12 +93,18 @@ h3 {
     background-image: url(../resources/Section-1-img1.png);
 }
 
+@media (max-width: 767px) {
+    .hero__title {
+        margin-top: 25px;
+    }
+}
+
 
 .hero__block {
     position: absolute;
+    width: 430px;
     left: 40px;
     bottom: 40px;
-    width: 430px;
     font-weight: 400;
     font-size: 19px;
     line-height: 27px;
@@ -94,6 +114,25 @@ h3 {
     color: #FFFFFF;
     letter-spacing: -0.2px;
 }
+
+
+@media (max-width: 1199px) {
+    .hero__block {
+        left: 42px;
+        bottom: 30px;
+    }
+}
+
+@media (max-width: 767px) {
+    .hero__block {
+        width: 100%;
+        left: 15px;
+        bottom: 15px;
+        font-size: 16px;
+    }
+}
+
+
 
 
 h2.title_about_us {
