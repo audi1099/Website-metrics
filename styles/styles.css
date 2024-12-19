@@ -74,12 +74,23 @@ h3 {
     margin-top: 150px;
 }
 
+@media (max-width: 1199px) {
+    .projects {
+        margin-top: 120px;
+    }
+}
+
+@media (min-width: 768px) {
+    .projects {
+        margin-top: 80px;
+    }
+}
+
 
 .container {
     max-width: 1150px;
     margin: 0 auto;
 }
-
 
 @media (max-width: 1199px) {
     .container {
@@ -143,8 +154,6 @@ h3 {
         font-size: 16px;
     }
 }
-
-
 
 
 h2.title_about_us {
@@ -215,6 +224,20 @@ h2.title_projects {
     line-height: 25px;
 }
 
+@media (max-width: 1199px) {
+    h2.title_projects {
+        width: 100%;
+    }
+}
+
+@media (max-width: 767px) {
+    h2.title_projects {
+        margin-bottom: 20px;
+        width: 100%;
+        font-size: 14px;
+    }
+}
+
 
 .projects-item {
     margin-top: 30px;
@@ -244,15 +267,35 @@ h3.projects-item__title {
     color: rgb(18, 18, 18);
 }
 
+@media (max-width: 1199px) {
+    h3.projects-item__title {
+        margin-bottom: 10px;
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 767px) {
+    h3.projects-item__title {
+        margin-top: 20px;
+        margin-bottom: 11px;
+        font-size: 18px;
+    }
+}
+
 
 a.projects-item__link {
-    padding-left: 2px;
     font-size: 20px;
     line-height: 27px;
     cursor: pointer;
     background-color: white;
     color: rgb(173, 24, 24);
     text-decoration: none;
+}
+
+@media (max-width: 767px) {
+    a.projects-item__link {
+        font-size: 16px;
+    }
 }
 
 
@@ -269,6 +312,20 @@ a.projects-item__link {
     background-color: white;
     color: rgb(173, 24, 24);
     font-size: 30px;
+}
+
+@media (max-width: 1199px) {
+    .projects_btn {
+        height: 100%;
+    }
+}
+
+@media (max-width: 767px) {
+    .projects_btn {
+        height: 100%;
+        font-size: 22px;
+        border-radius: 4px;
+    }
 }
 
 
@@ -376,6 +433,7 @@ h2.title_services {
     text-align: center;
     margin-left: 60px;
 }
+
 
 .nav__link {
     display: inline-block;
