@@ -57,6 +57,18 @@ h3 {
     margin-top: 150px;
 }
 
+@media (max-width: 1199px) {
+    .about {
+        margin-top: 120px;
+    }
+}
+
+@media (max-width: 767px) {
+    .about {
+        margin-top: 80px;
+    }
+}
+
 
 .projects {
     margin-top: 150px;
@@ -142,10 +154,29 @@ h2.title_about_us {
     line-height: 25px;
 }
 
+@media (max-width: 767px) {
+    h2.title_about_us {
+        margin-bottom: 20px;
+        font-size: 14px;
+    }
+}
+
 
 .about__title {
     font-size: 47px;
     line-height: normal;
+}
+
+@media (max-width: 1199px) {
+    .about__title {
+        font-size: 35px;
+    }
+}
+
+@media (max-width: 767px) {
+    .about__title {
+        font-size: 22px;
+    }
 }
 
 
@@ -159,6 +190,13 @@ a.about__btn {
     background-color: rgb(173, 24, 24);
     color: #FFFFFF;
     text-decoration: none;
+}
+
+@media (max-width: 767px) {
+    a.about__btn {
+        font-size: 16px;
+        padding: 15px 30px;
+    }
 }
 
 
